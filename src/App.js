@@ -1,8 +1,9 @@
 import React from 'react';
 
 import * as Blockly from 'blockly';
+//import * as En from 'blockly/msg/en';
 import * as Kr from './msg/ko.js';
-import './blocks/index.js';
+//import './blocks/index.js';
 
 import Toolbox from './toolbox.xml';
 

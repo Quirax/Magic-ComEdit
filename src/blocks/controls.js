@@ -27,3 +27,77 @@ Blockly.Blocks['controls_wait_whileuntil'] = {
         this.setHelpUrl("");
     }
 };
+
+// Blockly.Blocks['controls_whileUntil'] = {
+//     init: function () {
+//         this.jsonInit(
+//             {
+//                 "type": "controls_whileUntil",
+//                 "message0": "%{BKY_CONTROLS_WHILEUNTIL_TITLE}",
+//                 "args0": [
+//                     {
+//                         "type": "field_dropdown",
+//                         "name": "MODE",
+//                         "options": [
+//                             ["%{BKY_CONTROLS_WHILEUNTIL_OPERATOR_WHILE}", "WHILE"],
+//                             ["%{BKY_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL}", "UNTIL"]
+//                         ]
+//                     },
+//                     {
+//                         "type": "input_value",
+//                         "name": "BOOL",
+//                         "check": "Boolean"
+//                     }
+//                 ],
+//                 "message1": "%{BKY_CONTROLS_REPEAT_INPUT_DO} %1",
+//                 "args1": [{
+//                     "type": "input_statement",
+//                     "name": "DO"
+//                 }],
+//                 "previousStatement": null,
+//                 "nextStatement": null,
+//                 "style": "loop_blocks",
+//                 "helpUrl": "%{BKY_CONTROLS_WHILEUNTIL_HELPURL}",
+//                 "extensions": ["controls_whileUntil_tooltip"]
+//             }
+//         );
+//     }
+// };
+
+// /*
+// Blockly.Blocks['logic_ternary'] = {
+//     init: function () {
+//         this.jsonInit(
+//             {
+//                 "type": "logic_ternary",
+//                 "message0": "%{BKY_LOGIC_TERNARY_CONDITION}",
+//                 "args0": [
+//                     {
+//                         "type": "input_value",
+//                         "name": "IF",
+//                         "check": "Boolean"
+//                     }
+//                 ],
+//                 "message1": "%{BKY_LOGIC_TERNARY_IF_TRUE} %1",
+//                 "args1": [
+//                     {
+//                         "type": "input_value",
+//                         "name": "THEN"
+//                     }
+//                 ],
+//                 "message2": "%{BKY_LOGIC_TERNARY_IF_FALSE} %1",
+//                 "args2": [
+//                     {
+//                         "type": "input_value",
+//                         "name": "ELSE"
+//                     }
+//                 ],
+//                 "output": null,
+//                 "style": "logic_blocks",
+//                 "tooltip": "%{BKY_LOGIC_TERNARY_TOOLTIP}",
+//                 "helpUrl": "%{BKY_LOGIC_TERNARY_HELPURL}",
+//                 "extensions": ["logic_ternary"]
+//             }
+//         );
+//     }
+// }; */
